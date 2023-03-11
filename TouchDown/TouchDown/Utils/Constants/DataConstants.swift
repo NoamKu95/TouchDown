@@ -8,3 +8,4 @@
 import Foundation
 
 let heroImagesList: [HeroImage] = Bundle.main.decode("player.json")
+let categoriesList: [Category] = Bundle.main.decode("category.json")
