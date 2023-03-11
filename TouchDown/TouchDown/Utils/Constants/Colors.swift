@@ -7,5 +7,5 @@
 
 import SwiftUI
 
-let colorBackground = Color("colorBackground")
+let colorBackground = Color("ColorBackground")
 let colorGray = Color(UIColor.systemGray4)
