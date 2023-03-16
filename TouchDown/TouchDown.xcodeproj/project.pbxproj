@@ -32,6 +32,9 @@
 		4305260F29C377E80019BBBD /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305260E29C377E80019BBBD /* TitleView.swift */; };
 		4305261129C378A80019BBBD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261029C378A80019BBBD /* ProductModel.swift */; };
 		4305261429C37A070019BBBD /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261329C37A070019BBBD /* ProductItemView.swift */; };
+		4305261629C380980019BBBD /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261529C380980019BBBD /* BrandModel.swift */; };
+		4305261929C380E50019BBBD /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261829C380E50019BBBD /* BrandItemView.swift */; };
+		4305261B29C382950019BBBD /* BrandsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261A29C382950019BBBD /* BrandsGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		4305260E29C377E80019BBBD /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		4305261029C378A80019BBBD /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		4305261329C37A070019BBBD /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		4305261529C380980019BBBD /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
+		4305261829C380E50019BBBD /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		4305261A29C382950019BBBD /* BrandsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,7 @@
 		4301380429BC7D6300184AAF /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4305261729C380D10019BBBD /* Brands */,
 				4305261229C379F60019BBBD /* Products */,
 				4305260D29C377C70019BBBD /* Hero Carousel */,
 				4305260A29BCCC780019BBBD /* Categories */,
@@ -167,6 +174,7 @@
 				4301381B29BC8D9500184AAF /* HeroImageModel.swift */,
 				4305260229BC9F590019BBBD /* CategoryModel.swift */,
 				4305261029C378A80019BBBD /* ProductModel.swift */,
+				4305261529C380980019BBBD /* BrandModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -242,6 +250,15 @@
 				4305261329C37A070019BBBD /* ProductItemView.swift */,
 			);
 			path = Products;
+			sourceTree = "<group>";
+		};
+		4305261729C380D10019BBBD /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				4305261829C380E50019BBBD /* BrandItemView.swift */,
+				4305261A29C382950019BBBD /* BrandsGridView.swift */,
+			);
+			path = Brands;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +341,9 @@
 				4301381C29BC8D9500184AAF /* HeroImageModel.swift in Sources */,
 				4305260929BCCAC50019BBBD /* CategoryGridView.swift in Sources */,
 				4305260729BCA0AC0019BBBD /* CategoryItemView.swift in Sources */,
+				4305261929C380E50019BBBD /* BrandItemView.swift in Sources */,
 				4305260129BC9B760019BBBD /* HeroCarouselView.swift in Sources */,
+				4305261629C380980019BBBD /* BrandModel.swift in Sources */,
 				430137F329BA3A6100184AAF /* ContentView.swift in Sources */,
 				4305260529BC9FEE0019BBBD /* LayoutConstants.swift in Sources */,
 				4305261129C378A80019BBBD /* ProductModel.swift in Sources */,
@@ -332,6 +351,7 @@
 				4301380F29BC7EE700184AAF /* FooterView.swift in Sources */,
 				4301381E29BC96B600184AAF /* DataConstants.swift in Sources */,
 				4305260F29C377E80019BBBD /* TitleView.swift in Sources */,
+				4305261B29C382950019BBBD /* BrandsGridView.swift in Sources */,
 				4301381829BC8D3800184AAF /* BundleExtension.swift in Sources */,
 				4301380D29BC7E0E00184AAF /* Colors.swift in Sources */,
 				430137F129BA3A6100184AAF /* TouchDownApp.swift in Sources */,
