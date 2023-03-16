@@ -36,6 +36,7 @@
 		4305261929C380E50019BBBD /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261829C380E50019BBBD /* BrandItemView.swift */; };
 		4305261B29C382950019BBBD /* BrandsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261A29C382950019BBBD /* BrandsGridView.swift */; };
 		4305261D29C384420019BBBD /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261C29C384420019BBBD /* ProductDetails.swift */; };
+		4305262029C385880019BBBD /* DetailsNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305261F29C385880019BBBD /* DetailsNavigationBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		4305261829C380E50019BBBD /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		4305261A29C382950019BBBD /* BrandsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsGridView.swift; sourceTree = "<group>"; };
 		4305261C29C384420019BBBD /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		4305261F29C385880019BBBD /* DetailsNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNavigationBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,10 +146,10 @@
 		4301380329BC7D5600184AAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4305261E29C3856E0019BBBD /* Navigation */,
 				4301381229BC85B300184AAF /* General */,
 				4301380429BC7D6300184AAF /* Home */,
 				4301380529BC7D6B00184AAF /* Details */,
-				4301381029BC83E500184AAF /* NavigationBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,6 +266,15 @@
 			path = Brands;
 			sourceTree = "<group>";
 		};
+		4305261E29C3856E0019BBBD /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4301381029BC83E500184AAF /* NavigationBarView.swift */,
+				4305261F29C385880019BBBD /* DetailsNavigationBarView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -345,6 +356,7 @@
 				4305260929BCCAC50019BBBD /* CategoryGridView.swift in Sources */,
 				4305260729BCA0AC0019BBBD /* CategoryItemView.swift in Sources */,
 				4305261929C380E50019BBBD /* BrandItemView.swift in Sources */,
+				4305262029C385880019BBBD /* DetailsNavigationBarView.swift in Sources */,
 				4305260129BC9B760019BBBD /* HeroCarouselView.swift in Sources */,
 				4305261629C380980019BBBD /* BrandModel.swift in Sources */,
 				430137F329BA3A6100184AAF /* ContentView.swift in Sources */,

@@ -9,22 +9,24 @@ import SwiftUI
 
 struct ProductDetails: View {
     var body: some View {
-        VStack (alignment: .leading, spacing: 5) {
-            Text("Hi")
-            Spacer()
+        ZStack {
+            VStack (alignment: .leading, spacing: 5) {
+                DetailsNavigationBarView()
+                    .padding(.horizontal)
+                Text("Hi")
+                Spacer()
+            }
+            .background(Color(
+                red: sampleProduct.red,
+                green: sampleProduct.green,
+                blue: sampleProduct.blue)
+            )
         }
-        .ignoresSafeArea(.all, edges: .all)
-        .background(Color(
-            red: sampleProduct.red,
-            green: sampleProduct.green,
-            blue: sampleProduct.blue)
-        ).ignoresSafeArea(.all, edges: .all)
     }
 }
 
 struct ProductDetails_Previews: PreviewProvider {
     static var previews: some View {
         ProductDetails()
-            .previewLayout(.fixed(width: 375, height: 812))
     }
 }
