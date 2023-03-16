@@ -15,6 +15,12 @@ struct Product: Codable, Identifiable {
     let description: String
     let rgbColorsArray: [Double]
     
+    var red: Double { return rgbColorsArray[0] }
+    var green: Double { return rgbColorsArray[1] }
+    var blue: Double { return rgbColorsArray[2] }
+    
+    var formattedPrice: String { return "$\(price)" }
+    
     enum CodingKeys: String, CodingKey {
         case id
         case name
