@@ -9,13 +9,14 @@ import SwiftUI
 
 struct FavoriteIndicatorView: View {
     
-    
+    @State private var isAddedToFavorites: Bool = false
     
     var body: some View {
         Button(action: {
             hepticFeedback.impactOccurred()
+            isAddedToFavorites.toggle()
         }) {
-            Image(systemName: "heart.circle")
+            Image(systemName: isAddedToFavorites ? "heart.fill" : "heart")
                 .foregroundColor(.pink)
                 .font(.system(.title, design: .rounded))
                 .imageScale(.large)

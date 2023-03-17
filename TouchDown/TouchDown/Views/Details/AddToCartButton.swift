@@ -9,11 +9,13 @@ import SwiftUI
 
 struct AddToCartButton: View {
     
+    @EnvironmentObject var shop: Shop
     var product: Product
     
     var body: some View {
         Button(action: {
             hepticFeedback.impactOccurred()
+            shop.productsInCart.append(product)
         }) {
             Spacer()
             Text("add to cart".uppercased())
@@ -36,6 +38,7 @@ struct AddToCartButton: View {
 struct AddToCartButton_Previews: PreviewProvider {
     static var previews: some View {
         AddToCartButton(product: sampleProduct)
+            .environmentObject(Shop())
             .previewLayout(.sizeThatFits)
             .padding()
     }

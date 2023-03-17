@@ -29,9 +29,20 @@ struct DetailsNavigationBarView: View {
             Button(action: {
                 //
             }) {
-                Image(systemName: "cart")
-                    .font(.title)
-                    .foregroundColor(.white)
+                ZStack {
+                    Image(systemName: "cart")
+                        .font(.title)
+                        .foregroundColor(.white)
+                    
+                    if !shop.productsInCart.isEmpty {
+                        Circle()
+                            .fill(Color.red)
+                            .frame(width: 14, height: 14, alignment: .center)
+                            .offset(x: 13, y: -10)
+                    } else {
+                        EmptyView()
+                    }
+                }
             }
         }
     }

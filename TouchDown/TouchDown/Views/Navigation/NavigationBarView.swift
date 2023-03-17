@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NavigationBarView: View {
     
+    @EnvironmentObject var shop: Shop
     @State private var isAinmating: Bool = false
     
     var body: some View {
@@ -42,10 +43,14 @@ struct NavigationBarView: View {
                         .font(.title)
                     .foregroundColor(.black)
                     
-                    Circle()
-                        .fill(Color.red)
-                        .frame(width: 14, height: 14, alignment: .center)
+                    if !shop.productsInCart.isEmpty {
+                        Circle()
+                            .fill(Color.red)
+                            .frame(width: 14, height: 14, alignment: .center)
                         .offset(x: 13, y: -10)
+                    } else {
+                        EmptyView()
+                    }
                 }
             }
 
@@ -56,6 +61,7 @@ struct NavigationBarView: View {
 struct NavigationBarView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationBarView()
+            .environmentObject(Shop())
             .previewLayout(.sizeThatFits)
             .padding()
     }
