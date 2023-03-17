@@ -40,6 +40,8 @@
 		4305262229C4C6390019BBBD /* DetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262129C4C6390019BBBD /* DetailsHeaderView.swift */; };
 		4305262429C4C7910019BBBD /* DetailsHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262329C4C7910019BBBD /* DetailsHeroView.swift */; };
 		4305262629C4CB830019BBBD /* SheetTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262529C4CB830019BBBD /* SheetTopView.swift */; };
+		4305262829C4CD640019BBBD /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262729C4CD640019BBBD /* RatingsView.swift */; };
+		4305262A29C4D1940019BBBD /* SizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262929C4D1940019BBBD /* SizesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		4305262129C4C6390019BBBD /* DetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeaderView.swift; sourceTree = "<group>"; };
 		4305262329C4C7910019BBBD /* DetailsHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeroView.swift; sourceTree = "<group>"; };
 		4305262529C4CB830019BBBD /* SheetTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTopView.swift; sourceTree = "<group>"; };
+		4305262729C4CD640019BBBD /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		4305262929C4D1940019BBBD /* SizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,8 @@
 			children = (
 				4305262129C4C6390019BBBD /* DetailsHeaderView.swift */,
 				4305262329C4C7910019BBBD /* DetailsHeroView.swift */,
+				4305262729C4CD640019BBBD /* RatingsView.swift */,
+				4305262929C4D1940019BBBD /* SizesView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -373,6 +379,7 @@
 				4305260529BC9FEE0019BBBD /* LayoutConstants.swift in Sources */,
 				4305261129C378A80019BBBD /* ProductModel.swift in Sources */,
 				4301381429BC85C300184AAF /* LogoView.swift in Sources */,
+				4305262829C4CD640019BBBD /* RatingsView.swift in Sources */,
 				4305261D29C384420019BBBD /* ProductDetails.swift in Sources */,
 				4301380F29BC7EE700184AAF /* FooterView.swift in Sources */,
 				4305262629C4CB830019BBBD /* SheetTopView.swift in Sources */,
@@ -385,6 +392,7 @@
 				4301381129BC83E500184AAF /* NavigationBarView.swift in Sources */,
 				4305261429C37A070019BBBD /* ProductItemView.swift in Sources */,
 				4305262229C4C6390019BBBD /* DetailsHeaderView.swift in Sources */,
+				4305262A29C4D1940019BBBD /* SizesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

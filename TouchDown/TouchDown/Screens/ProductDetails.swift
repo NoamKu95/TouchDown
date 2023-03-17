@@ -24,6 +24,13 @@ struct ProductDetails: View {
                 
                 VStack (alignment: .center, spacing: 0) {
                     
+                    HStack (alignment: .center, spacing: 0) {
+                        RatingsView()
+                        Spacer()
+                        SizesView()
+                    }
+                    .padding(.vertical)
+                    
                     ScrollView (.vertical, showsIndicators: false) {
                         Text(sampleProduct.description)
                             .font(.system(.body, design: .rounded))
