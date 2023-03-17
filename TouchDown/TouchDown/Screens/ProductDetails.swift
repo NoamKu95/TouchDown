@@ -45,6 +45,14 @@ struct ProductDetails: View {
                     Color.white.clipShape(SheetTopView())
                         .padding(.top, -105)
                 )
+                
+                HStack {
+                    QuantityView()
+                    Spacer()
+                    FavoriteIndicatorView()
+                }
+                .padding()
+                
             }
             .zIndex(0)
             .background(Color(

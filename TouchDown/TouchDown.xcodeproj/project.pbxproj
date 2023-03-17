@@ -42,6 +42,8 @@
 		4305262629C4CB830019BBBD /* SheetTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262529C4CB830019BBBD /* SheetTopView.swift */; };
 		4305262829C4CD640019BBBD /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262729C4CD640019BBBD /* RatingsView.swift */; };
 		4305262A29C4D1940019BBBD /* SizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262929C4D1940019BBBD /* SizesView.swift */; };
+		4305262C29C4D3610019BBBD /* QuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262B29C4D3610019BBBD /* QuantityView.swift */; };
+		4305262E29C4D4F80019BBBD /* FavoriteIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		4305262529C4CB830019BBBD /* SheetTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTopView.swift; sourceTree = "<group>"; };
 		4305262729C4CD640019BBBD /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		4305262929C4D1940019BBBD /* SizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesView.swift; sourceTree = "<group>"; };
+		4305262B29C4D3610019BBBD /* QuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityView.swift; sourceTree = "<group>"; };
+		4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,8 @@
 				4305262329C4C7910019BBBD /* DetailsHeroView.swift */,
 				4305262729C4CD640019BBBD /* RatingsView.swift */,
 				4305262929C4D1940019BBBD /* SizesView.swift */,
+				4305262B29C4D3610019BBBD /* QuantityView.swift */,
+				4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -367,6 +373,7 @@
 				4301381A29BC8D5300184AAF /* HeroCarouselItemView.swift in Sources */,
 				4305260329BC9F590019BBBD /* CategoryModel.swift in Sources */,
 				4305260C29BCCC8F0019BBBD /* CategorySectionView.swift in Sources */,
+				4305262C29C4D3610019BBBD /* QuantityView.swift in Sources */,
 				4301381C29BC8D9500184AAF /* HeroImageModel.swift in Sources */,
 				4305260929BCCAC50019BBBD /* CategoryGridView.swift in Sources */,
 				4305260729BCA0AC0019BBBD /* CategoryItemView.swift in Sources */,
@@ -382,6 +389,7 @@
 				4305262829C4CD640019BBBD /* RatingsView.swift in Sources */,
 				4305261D29C384420019BBBD /* ProductDetails.swift in Sources */,
 				4301380F29BC7EE700184AAF /* FooterView.swift in Sources */,
+				4305262E29C4D4F80019BBBD /* FavoriteIndicatorView.swift in Sources */,
 				4305262629C4CB830019BBBD /* SheetTopView.swift in Sources */,
 				4301381E29BC96B600184AAF /* DataConstants.swift in Sources */,
 				4305260F29C377E80019BBBD /* TitleView.swift in Sources */,
