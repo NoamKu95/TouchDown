@@ -45,6 +45,7 @@
 		4305262C29C4D3610019BBBD /* QuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262B29C4D3610019BBBD /* QuantityView.swift */; };
 		4305262E29C4D4F80019BBBD /* FavoriteIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */; };
 		4305263029C4D7040019BBBD /* AddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262F29C4D7040019BBBD /* AddToCartButton.swift */; };
+		4305263229C4E18F0019BBBD /* ShopClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305263129C4E18F0019BBBD /* ShopClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		4305262B29C4D3610019BBBD /* QuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityView.swift; sourceTree = "<group>"; };
 		4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteIndicatorView.swift; sourceTree = "<group>"; };
 		4305262F29C4D7040019BBBD /* AddToCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartButton.swift; sourceTree = "<group>"; };
+		4305263129C4E18F0019BBBD /* ShopClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +122,12 @@
 		430137EF29BA3A6100184AAF /* TouchDown */ = {
 			isa = PBXGroup;
 			children = (
+				430137FE29BA3A7600184AAF /* Resources */,
 				430525F729BC98BE0019BBBD /* Data Files */,
 				430137F029BA3A6100184AAF /* TouchDownApp.swift */,
 				4301380229BC7CA600184AAF /* Info.plist */,
 				430137FF29BA3A8300184AAF /* Screens */,
 				4301380329BC7D5600184AAF /* Views */,
-				430137FE29BA3A7600184AAF /* Resources */,
 				4301380629BC7D7D00184AAF /* Models */,
 				4301380829BC7D8A00184AAF /* Utils */,
 				4301380729BC7D8400184AAF /* Extensions */,
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				4301380B29BC7DE800184AAF /* Constants */,
+				4305263129C4E18F0019BBBD /* ShopClass.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				430137F329BA3A6100184AAF /* ContentView.swift in Sources */,
 				4305262429C4C7910019BBBD /* DetailsHeroView.swift in Sources */,
 				4305260529BC9FEE0019BBBD /* LayoutConstants.swift in Sources */,
+				4305263229C4E18F0019BBBD /* ShopClass.swift in Sources */,
 				4305261129C378A80019BBBD /* ProductModel.swift in Sources */,
 				4301381429BC85C300184AAF /* LogoView.swift in Sources */,
 				4305262829C4CD640019BBBD /* RatingsView.swift in Sources */,
