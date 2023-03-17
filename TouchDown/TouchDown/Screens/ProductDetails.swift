@@ -11,9 +11,12 @@ struct ProductDetails: View {
     var body: some View {
         ZStack {
             VStack (alignment: .leading, spacing: 5) {
+                
+                // MARK: - NAV BAR
                 DetailsNavigationBarView()
                     .padding(.horizontal)
                 
+                // MARK: - HERO
                 DetailsHeaderView(product: sampleProduct)
                     .padding(.horizontal)
                     .padding(.top, 10)
@@ -24,6 +27,7 @@ struct ProductDetails: View {
                 
                 VStack (alignment: .center, spacing: 0) {
                     
+                    // MARK: - RATINGS & SIZES
                     HStack (alignment: .center, spacing: 0) {
                         RatingsView()
                         Spacer()
@@ -31,6 +35,7 @@ struct ProductDetails: View {
                     }
                     .padding(.vertical)
                     
+                    // MARK: - DESCRIPTION
                     ScrollView (.vertical, showsIndicators: false) {
                         Text(sampleProduct.description)
                             .font(.system(.body, design: .rounded))
@@ -38,20 +43,24 @@ struct ProductDetails: View {
                             .multilineTextAlignment(.leading)
                     }
                     
-                    Spacer()
+                    // MARK: - QUANTITY & FAVORITE
+                    HStack {
+                        QuantityView()
+                        Spacer()
+                        FavoriteIndicatorView()
+                    }
+                    .padding()
+                    
+                    // MARK: - ADD TO CART
+                    AddToCartButton(product: sampleProduct)
+                        .padding(.horizontal)
+                        .padding(.bottom)
                 }
                 .padding(.horizontal)
                 .background(
                     Color.white.clipShape(SheetTopView())
                         .padding(.top, -105)
                 )
-                
-                HStack {
-                    QuantityView()
-                    Spacer()
-                    FavoriteIndicatorView()
-                }
-                .padding()
                 
             }
             .zIndex(0)

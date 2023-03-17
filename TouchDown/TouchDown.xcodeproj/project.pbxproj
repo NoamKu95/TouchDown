@@ -44,6 +44,7 @@
 		4305262A29C4D1940019BBBD /* SizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262929C4D1940019BBBD /* SizesView.swift */; };
 		4305262C29C4D3610019BBBD /* QuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262B29C4D3610019BBBD /* QuantityView.swift */; };
 		4305262E29C4D4F80019BBBD /* FavoriteIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */; };
+		4305263029C4D7040019BBBD /* AddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262F29C4D7040019BBBD /* AddToCartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		4305262929C4D1940019BBBD /* SizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesView.swift; sourceTree = "<group>"; };
 		4305262B29C4D3610019BBBD /* QuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityView.swift; sourceTree = "<group>"; };
 		4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteIndicatorView.swift; sourceTree = "<group>"; };
+		4305262F29C4D7040019BBBD /* AddToCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				4305262929C4D1940019BBBD /* SizesView.swift */,
 				4305262B29C4D3610019BBBD /* QuantityView.swift */,
 				4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */,
+				4305262F29C4D7040019BBBD /* AddToCartButton.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			files = (
 				4301381A29BC8D5300184AAF /* HeroCarouselItemView.swift in Sources */,
 				4305260329BC9F590019BBBD /* CategoryModel.swift in Sources */,
+				4305263029C4D7040019BBBD /* AddToCartButton.swift in Sources */,
 				4305260C29BCCC8F0019BBBD /* CategorySectionView.swift in Sources */,
 				4305262C29C4D3610019BBBD /* QuantityView.swift in Sources */,
 				4301381C29BC8D9500184AAF /* HeroImageModel.swift in Sources */,
