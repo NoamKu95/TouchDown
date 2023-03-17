@@ -13,7 +13,14 @@ struct ProductDetails: View {
             VStack (alignment: .leading, spacing: 5) {
                 DetailsNavigationBarView()
                     .padding(.horizontal)
-                Text("Hi")
+                
+                DetailsHeaderView(product: sampleProduct)
+                    .padding(.horizontal)
+                    .padding(.top, 10)
+                
+                DetailsHeroView(product: sampleProduct)
+                    .padding(.horizontal)
+
                 Spacer()
             }
             .background(Color(
