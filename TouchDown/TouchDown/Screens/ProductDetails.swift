@@ -20,14 +20,32 @@ struct ProductDetails: View {
                 
                 DetailsHeroView(product: sampleProduct)
                     .padding(.horizontal)
-
-                Spacer()
+                    .zIndex(1)
+                
+                VStack (alignment: .center, spacing: 0) {
+                    
+                    ScrollView (.vertical, showsIndicators: false) {
+                        Text(sampleProduct.description)
+                            .font(.system(.body, design: .rounded))
+                            .foregroundColor(.gray)
+                            .multilineTextAlignment(.leading)
+                    }
+                    
+                    Spacer()
+                }
+                .padding(.horizontal)
+                .background(
+                    Color.white.clipShape(SheetTopView())
+                        .padding(.top, -105)
+                )
             }
+            .zIndex(0)
             .background(Color(
                 red: sampleProduct.red,
                 green: sampleProduct.green,
                 blue: sampleProduct.blue)
             )
+            .ignoresSafeArea(.all, edges: .bottom)
         }
     }
 }
