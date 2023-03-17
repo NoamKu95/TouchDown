@@ -46,6 +46,7 @@
 		4305262E29C4D4F80019BBBD /* FavoriteIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */; };
 		4305263029C4D7040019BBBD /* AddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305262F29C4D7040019BBBD /* AddToCartButton.swift */; };
 		4305263229C4E18F0019BBBD /* ShopClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305263129C4E18F0019BBBD /* ShopClass.swift */; };
+		4305263429C4EA8B0019BBBD /* Heptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305263329C4EA8B0019BBBD /* Heptics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		4305262D29C4D4F80019BBBD /* FavoriteIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteIndicatorView.swift; sourceTree = "<group>"; };
 		4305262F29C4D7040019BBBD /* AddToCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartButton.swift; sourceTree = "<group>"; };
 		4305263129C4E18F0019BBBD /* ShopClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopClass.swift; sourceTree = "<group>"; };
+		4305263329C4EA8B0019BBBD /* Heptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heptics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				4301380C29BC7E0E00184AAF /* Colors.swift */,
 				4301381D29BC96B600184AAF /* DataConstants.swift */,
 				4305260429BC9FEE0019BBBD /* LayoutConstants.swift */,
+				4305263329C4EA8B0019BBBD /* Heptics.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				4305261B29C382950019BBBD /* BrandsGridView.swift in Sources */,
 				4301381829BC8D3800184AAF /* BundleExtension.swift in Sources */,
 				4301380D29BC7E0E00184AAF /* Colors.swift in Sources */,
+				4305263429C4EA8B0019BBBD /* Heptics.swift in Sources */,
 				430137F129BA3A6100184AAF /* TouchDownApp.swift in Sources */,
 				4301381129BC83E500184AAF /* NavigationBarView.swift in Sources */,
 				4305261429C37A070019BBBD /* ProductItemView.swift in Sources */,

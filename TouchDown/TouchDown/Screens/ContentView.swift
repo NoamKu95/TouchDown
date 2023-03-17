@@ -33,7 +33,10 @@ struct ContentView: View {
                                 ForEach (productsList) { product in
                                     ProductItemView(product: product)
                                         .onTapGesture {
-                                            shop.selectedProduct = product
+                                            hepticFeedback.impactOccurred()
+                                            withAnimation(.easeOut) {
+                                                shop.selectedProduct = product
+                                            }
                                         }
                                 }
                             }

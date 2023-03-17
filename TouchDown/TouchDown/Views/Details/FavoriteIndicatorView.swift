@@ -13,7 +13,7 @@ struct FavoriteIndicatorView: View {
     
     var body: some View {
         Button(action: {
-            //
+            hepticFeedback.impactOccurred()
         }) {
             Image(systemName: "heart.circle")
                 .foregroundColor(.pink)

@@ -16,6 +16,7 @@ struct QuantityView: View {
             Button(action: {
                 if counter > 0 {
                     counter -= 1
+                    hepticFeedback.impactOccurred()
                 }
             }) {
                 Image(systemName: "minus.circle")
@@ -28,6 +29,7 @@ struct QuantityView: View {
             Button(action: {
                 if counter < 100 {
                     counter += 1
+                    hepticFeedback.impactOccurred()
                 }
             }) {
                 Image(systemName: "plus.circle")
