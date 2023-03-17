@@ -13,7 +13,7 @@ struct AddToCartButton: View {
     
     var body: some View {
         Button(action: {
-            //
+            hepticFeedback.impactOccurred()
         }) {
             Spacer()
             Text("add to cart".uppercased())

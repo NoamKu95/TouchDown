@@ -14,6 +14,7 @@ struct DetailsNavigationBarView: View {
     var body: some View {
         HStack {
             Button(action: {
+                hepticFeedback.impactOccurred()
                 withAnimation(.easeIn) {
                     shop.selectedProduct = nil
                 }
