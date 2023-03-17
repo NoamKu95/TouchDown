@@ -9,4 +9,5 @@ import Foundation
 
 class Shop: ObservableObject {
     @Published var selectedProduct: Product? = nil
+    @Published var productsInCart: [Product] = []
 }
