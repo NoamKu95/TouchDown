@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProductDetails: View {
+    
+    @EnvironmentObject var shop: Shop
+    
     var body: some View {
         ZStack {
             VStack (alignment: .leading, spacing: 5) {
@@ -17,11 +20,11 @@ struct ProductDetails: View {
                     .padding(.horizontal)
                 
                 // MARK: - HERO
-                DetailsHeaderView(product: sampleProduct)
+                DetailsHeaderView(product: shop.selectedProduct ?? sampleProduct)
                     .padding(.horizontal)
                     .padding(.top, 10)
                 
-                DetailsHeroView(product: sampleProduct)
+                DetailsHeroView(product: shop.selectedProduct ?? sampleProduct)
                     .padding(.horizontal)
                     .zIndex(1)
                 
@@ -37,7 +40,7 @@ struct ProductDetails: View {
                     
                     // MARK: - DESCRIPTION
                     ScrollView (.vertical, showsIndicators: false) {
-                        Text(sampleProduct.description)
+                        Text(shop.selectedProduct?.description ?? sampleProduct.description)
                             .font(.system(.body, design: .rounded))
                             .foregroundColor(.gray)
                             .multilineTextAlignment(.leading)
@@ -52,7 +55,7 @@ struct ProductDetails: View {
                     .padding()
                     
                     // MARK: - ADD TO CART
-                    AddToCartButton(product: sampleProduct)
+                    AddToCartButton(product: shop.selectedProduct ?? sampleProduct)
                         .padding(.horizontal)
                         .padding(.bottom)
                 }
@@ -65,9 +68,9 @@ struct ProductDetails: View {
             }
             .zIndex(0)
             .background(Color(
-                red: sampleProduct.red,
-                green: sampleProduct.green,
-                blue: sampleProduct.blue)
+                red: shop.selectedProduct?.red ?? sampleProduct.red,
+                green: shop.selectedProduct?.green ?? sampleProduct.green,
+                blue: shop.selectedProduct?.blue ?? sampleProduct.blue)
             )
             .ignoresSafeArea(.all, edges: .bottom)
         }
